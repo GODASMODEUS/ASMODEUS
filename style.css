@@ -6,7 +6,9 @@ h1{
     color: red;
     font-size: 50px;
     height: 40px;
-    
+    font-weight: bold;
+    text-shadow: gold -2px 0, blue 2px 0;
+   
 }
 @media screen and (max-width: 600px) {
     
