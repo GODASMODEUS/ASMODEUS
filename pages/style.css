@@ -1,0 +1,29 @@
+p {
+    color: aqua;
+    font-size: 30px;
+}
+h1{
+    color: red;
+    font-size: 50px;
+    height: 40px;
+    font-weight: bold;
+    text-shadow: gold -2px 0, blue 2px 0;
+   
+}
+@media screen and (max-width: 600px) {
+    
+}
+.pagination{
+    display: inline-block;
+    
+}
+.pagination a{
+    float:left;
+    text text-decoration: none;
+    padding: 8px 16px;
+    color: aquamarine;
+}
+.pagination a:hover{
+    background: red;
+    border-radius: 180%;
+}
