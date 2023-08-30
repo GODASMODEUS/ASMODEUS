@@ -8,8 +8,9 @@ h1{
     height: 40px;
     font-weight: bold;
     text-shadow: gold -2px 0, blue 2px 0;
-   cursor: pointer
+   cursor: pointer;
 }
+
 @media screen and (max-width: 600px) {
     
 }
