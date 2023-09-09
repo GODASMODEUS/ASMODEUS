@@ -14,22 +14,12 @@ h1{
 }
 
 @media screen and (max-width: 600px) {
+    h1{
+        font-size: 60px;}
+   
     
 }
-.pagination{
-    display: inline-block;
-    
-}
-.pagination a{
-    float:left;
-    text text-decoration: none;
-    padding: 8px 16px;
-    color: aquamarine;
-}
-.pagination a:hover{
-    background: red;
-    border-radius: 180%;
-}
+
 h3{
     color: red;
 }

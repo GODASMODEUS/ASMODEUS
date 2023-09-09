@@ -51,6 +51,17 @@
 			box-shadow: 1px 1px 10px rgba(0,0,0,.1);
 		}
        body{background-color:black;}
+       @media screen and (max-width: 600px){
+            main .cotainer{
+        grid-template-columns: repeat(2, 1fr);
+			column-gap: 0.5rem;
+            grid-row-gap: 2rem;
+           }
+           main {
+        width: 156%;
+        
+    }
+       }
 	</style>
      
     </head>
